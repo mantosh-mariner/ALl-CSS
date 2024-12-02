@@ -1,0 +1,29 @@
+a:active{
+columns: rgb(18, 110, 18);
+}
+a:visited{
+    color: rgb(0, 55, 255);
+}
+
+a:link{
+    color:rgb(19, 49, 126);
+
+}
+
+img {
+    transition: transform 2.3s ease; 
+    width: 90%; 
+}
+
+img:hover {
+    /* transform: translate(6px, 7px);  */
+    transform: scale(2.5);
+    transition: 2.5s;
+}
+
+div {
+    margin-left: 40%;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}

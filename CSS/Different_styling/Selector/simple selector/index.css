@@ -1,0 +1,18 @@
+*{
+    background-color: royalblue;
+}
+
+#h11{
+    background-color: gray;
+
+}
+
+.pclass{
+    background-color: brown;
+}
+
+/* this is the grouping selector */
+#h11, .pclass{
+    text-align: center;
+    font-size: 2rem;
+}

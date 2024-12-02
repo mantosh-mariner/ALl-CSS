@@ -1,0 +1,41 @@
+div{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display:none;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: 3s;
+}
+
+@media screen and (max-width:351px) {
+    #mob{
+        display: block;
+    }
+    
+}
+
+@media (min-width:352px)  and (max-width:700px) {
+    #tab{
+        display: block;
+        background-color: red;
+    }
+    
+}
+
+@media (min-width:701px)  and (max-width:1800px) {
+    #lap{
+        display: block;
+        background-color: blue;
+    }
+    
+}
+@media (min-width:1801px)  and (max-width:3000px) {
+    #ful{
+        display: block;
+        background-color: rgb(174, 22, 148);
+    }
+    
+}
